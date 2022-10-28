@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'raleway';
+    font-size: 18px;
+    font-weight: 300;
+    color: #707070;
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    min-height: 100px ; /*altura minima */
+}
+    header div {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color:#050303;
+    }
+
+    header a, header a h2{
+        color: #44D62C;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+    header nav{
+        margin-right: 20px;
+    }
+    header nav a {
+        margin: 0px 5px;
+        color: #fff;
+        padding: 12px; /*para agrandar la caja y mejorar el area de clic*/
+    }
+    header nav a:hover{
+        border-bottom: 1px solid #44D62C;
+        transition: 0.3s;
+        border-radius: 10% 10% 0 0;
+        box-shadow: 0 0 8px #272727;
+        transform:scale(1.01);
+    }
+    header div a img {
+        width: 56px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+main{
+    color: #fff;
+    margin: auto;
+    padding-bottom: 3%;
+    
+    background: #701794; 
+    background: radial-gradient(circle, rgba(112,23,148,1) 0%, rgba(64,12,101,1) 52%, rgba(19,4,47,1) 80%, rgba(31,3,68,1) 100%); 
+}
+#title_game{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+    #title_game h2{
+        font-size: 80px;
+        margin-bottom: 15px;
+        color: #050303;
+        -webkit-text-stroke: 1px #44D62C;
+    }
+
+.juepa, 
+.juepa_3{
+    display: flex;
+    justify-content:space-around; 
+    margin: 20px 0;
+}
+    .juepa h2,
+    .juepa_3 h2,
+    .individual h2{
+        color: #44D62C;
+    }
+    .juepa a,
+    .juepa_3 a,
+    .individual a {
+        color: #fff;
+    }
+    .juepa div{
+        margin: 10px;
+        padding: 10px;
+        width: 600px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        
+        background-color: #16081b;
+
+        border-radius: 10px;
+    }
+
+    .juepa img{
+        margin: 15px 0;
+        width: 530px;
+        height: 310px;
+        border-radius: 10px;
+    }
+    .juepa_3 div{
+        width: 410px;
+        min-height: 435px;
+        padding: 15px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        text-align: center;
+        background-color: #16081b;
+
+        border-radius: 10px;
+    }
+    .juepa_3 img{
+        margin: 15px 0;
+        width: 350px;
+        height: 270px;
+        border-radius: 10px;
+    }
+
+.individual{
+    padding: 15px 0;
+    margin:auto ;
+    background-color: #16081b;
+    width: 1100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.individual img{
+    width: 500px;
+    height: 350px;
+    margin: 15px 10px;
+
+    border-radius: 10px;
+}
+
+    .juepa div:hover,
+    .juepa_3 div:hover,
+    .individual:hover{
+        transform: scale(1.01);
+        transition: 5ms;
+   }
+    footer div a img:hover{
+        transform:scale(1.1);
+    }
+/*footer*/
+footer {
+    background-color: #050303;
+    border-top: 3px solid #44D62C;
+   
+}
+    #contenidofooter{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 1100PX;
+        align-items: center;
+        height: 150px;
+    }
+
+    #contenidofooter a{
+        color: white;
+        font-weight: 600;
+    }
+    #logo-footer img{
+        width: 120px;
+        margin-right: 8px;
+        vertical-align: middle;
+        border-radius: 30%;
+    }
+
+    footer div a img{
+        width: 80px;
+        margin-left: 8px;
+        border-radius: 80%;
+    }
+    
+    
